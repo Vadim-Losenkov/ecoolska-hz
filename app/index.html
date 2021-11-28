@@ -1,27 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1920px"> <!-- device-width, initial-scale=1.0 -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ProjectName</title>
+  <title>ecoolska-cotton</title>
   <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
-  
-  <script src="//cdn.jsdelivr.net/npm/eruda"></script> <script>eruda.init();</script>
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
+  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+  <script>eruda.init();</script>
+
 </head>
+
 <body>
-  <header class="header">
-    
-  </header>
-  <main class="main">
-    
-  </main>
-  <footer class="footer">
-    
-  </footer>
-  
+  <div class="cotton">
+    <div class="cotton__top" style="background-image: url('images/cottonPage-top-1.jpg');">
+      <h1 class="cotton__top-text">
+        Коллекция из переработанного хлопка
+      </h1>
+    </div>
+    <div class="cotton__video">
+      <div class="cottonContainer">
+        <h1 class="cotton__video-title cottonBorder-bottom">
+          <span>Мы</span>
+          <span>не создаем</span>
+          <span>одежду из обычного</span>
+          <span>хлопка</span>
+          <div class="cotton__video-title-text">
+            <!-- поставить на позиц -->
+            <p class="cottonText">
+              Это неэкологичный материал, несмотря на его натуральность. Растительная основа — еще не гарантия
+              безопасности окружающей среды.
+            </p>
+            <p class="cottonText">
+              Важно, как выращивается растение, в каких условиях собирается и что происходит на производстве.
+            </p>
+          </div>
+        </h1>
+        <div class="cotton__video-item">
+          <!-- на вашем видосе в iframe нужно будет убрать атрибуты width="..." height="..." -->
+          <iframe src="https://www.youtube.com/embed/YAWt-gktZqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="cotton__bad">
+      <div class="cottonContainer">
+        <h1 class="cotton__bad-title cottonMainTitle cottonBorder-bottom">
+          <span>
+            Хлопок вреден на всех <br> этапах жизненного цикла
+          </span>
+        </h1>
+        <div class="cotton__bad-inner">
+          <div class="cotton__bad-image">
+            <img src="images/cottonPage-bad-1.jpg" alt="">
+          </div>
+          <div class="cotton__bad-box">
+            <div class="cotton__bad-box__info">
+              <p class="cotton__bad-text cottonText">
+                <span>1</span>
+                Выращивается в районах, где не хватает осадков и нужно орошение. На килограмм изготовленного хлопка уходит до 12 литров воды. 69% водного следа от всей текстильной промышленности приходится на хлопок.
+              </p>
+              <p class="cotton__bad-text cottonText">
+                <span>2</span>
+                Опрыскивается пестицидами для защиты от вредителей. На килограмм хлопка — 600 г пестицидов. 16% всех используемых в мире химикатов затрачивается на опрыскивание хлопчатника. 28 000 человек в год умирают от отравления пестицидами при работе на хлопковых полях.
+              </p>
+            </div>
+            <img src="images/cottonPage-bad-2.jpg" alt="">
+          </div>
+          
+        </div>
+        <div class="cotton__bad-info">
+          <p class="cotton__bad-text cottonText">
+            <span>
+              3
+            </span>
+            Удобряется агрохимикатами, которые стекают в реки и озера и загрязняют их; накапливаются в экосистемах, угрожая природному разнообразию.
+          </p>
+          <p class="cotton__bad-text cottonText">
+            <span>
+              4
+            </span>
+            Собирается с помощью уборочных машин, которые заправляют спецсредствами. От этого возникает эрозия и деградация почвы.
+          </p>
+          <p class="cotton__bad-text cottonText">
+            <span>
+              5
+            </span>
+            Разлагается с условиями: для распада необходим доступ кислорода — без него материал будет разлагаться десятки лет и выделять парниковые газы.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cotton__usage">
+      <div class="cottonContainer">
+        <h2 class="cotton__usage-title cottonTitle cottonBorder-top">
+          Несмотря на негативные последствия для экологии, хлопок до сих пор широко используется в текстильной промышленности.
+        </h2>
+        <div class="cotton__usage-inner">
+          <div class="cotton__usage-image">
+            <img src="images/cottonPage-usage-1.jpg" alt="">
+          </div>
+          <div class="cotton__usage-box">
+            <div class="cotton__usage-info">
+              <p class="cotton__usage-text cottonBigText">
+                Каждый год для нее производят 27,3 млрд кг хлопка. 15% (4,1 миллиарда кг) от этого объема становятся обрезками при раскрое на фабриках.
+              </p>
+              <p class="cotton__usage-text cottonBigText">
+                Это эквивалентно 109 750 грузовикам годного к употреблению сырья. Но так как это обрезки — их просто утилизируют.
+              </p>
+            </div>
+            <img src="images/cottonPage-usage-2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="js/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
