@@ -1,0 +1,134 @@
+@media (max-width: 1240px) {
+  .cotton__video-title span {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 72px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cotton__video-title {
+    span {
+      &:first-child {
+        margin-left: 0;
+      }
+      &:nth-child(3) {
+        margin-left: 0;
+      }
+      &:nth-child(4) {
+        margin: 0;
+        justify-content: flex-start;
+      }
+      margin: 0;
+      justify-content: flex-start;
+    }
+    &-text {
+      display: none;
+    }
+  }
+  .cotton__video-info {
+    display: block;
+    margin-bottom: 32px;  
+  }
+  .cotton__video iframe {
+    height: 350px;
+  }
+
+  .cotton__bad-image {
+    display: none;
+  }
+  .cotton__bad-box {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .cotton__bad-text {
+    margin: 0;
+    margin-bottom: 32px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .cotton__bad-info {
+    display: block;
+  }
+  .cotton__usage-image {
+    display: none;
+  }
+  .cotton__usage-box {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .cotton__collab-box__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  .cotton__collab-info__box {
+    justify-content: center;
+  }
+  .cotton__collab-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cotton__collab-info {
+    margin-left: 0;
+  }
+  .cotton__collab-box,
+  .cotton__collab-info {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cottonMainTitle {
+    font-size: 32px;
+  }
+  .cottonTitle {
+    font-size: 28px;
+  }
+  .cottonBigText {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .cotton__top-text {
+    font-size: 40px;
+  }
+
+  .cotton__video-title span {
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+  .cotton__video iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cotton__top-text {
+    font-size: 32px;
+  }
+  .cotton__video iframe {
+    height: 200px;
+  }
+
+  .cotton__collab-bigText {
+    margin-bottom: 40px;
+  }
+  .cotton__collab-info__box {
+    flex-direction: column;
+    align-items: center;
+    .cotton__collab-info__text:first-child,
+    .cotton__collab-info__text:last-child {
+      margin: 0;
+      max-width: 300px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}

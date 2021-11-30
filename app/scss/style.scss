@@ -36,6 +36,10 @@
       height: 595px;
     }
   }
+  &__video-info {
+    margin-bottom: 32px;
+    display: none;
+  }
   &__video-title {
     margin-bottom: 56px;
     position: relative;
@@ -57,7 +61,9 @@
         margin-left: 100px;
       }
       &:nth-child(4) {
-        margin-left: 820px;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
         margin-bottom: 0;
       }
     }
@@ -99,6 +105,7 @@
     max-width: 380px;
     padding-top: 52px;
     margin-bottom: 32px;
+    margin-left: 32px;
     position: relative;
     span {
       position: absolute;
@@ -211,17 +218,61 @@
   &__benefits-text {
     position: relative;
     width: 276px;
-    height: 80px;
+    height: 116px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     &::before {
       content: "";
       position: absolute;
       border: 1px solid  #544d46;
       border-radius: 50%;
       right: 0;
-      left: -15%;
-      top: -25%;
+      left: 0;
+      top: 0;
       bottom: 0;
-      transform: rotate(11deg);
+    }
+
+    &.item-1 {
+      margin-bottom: 35px;
+      &::before {
+        transform: rotate(-12.21deg)
+      }
+    }
+    &.item-2 {
+      margin: 0 auto;
+      margin-bottom: 35px;
+      &::before {
+        transform: rotate(11deg);
+      }
+    }
+    &.item-3 {
+      margin-left: auto;
+      &::before {
+        transform: rotate(-7.95deg);
+      }
+    }
+  }
+
+  &__clothes {
+    margin-bottom: 250px;
+  }
+  &__clothes-title,
+  &__clothes-image {
+    margin-bottom: 40px;
+  }
+  &__clothes-info {
+    display: flex;
+  }
+  &__clothes-text {
+    &:first-child {
+      max-width: 481px;
+      margin-right: 135px;
+    }
+    &:last-child {
+      max-width: 379px;
     }
   }
 }
