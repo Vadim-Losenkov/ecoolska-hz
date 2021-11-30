@@ -147,6 +147,84 @@
       margin-bottom: 40px;
     }
   }
+  
+  &__collab {
+    margin-bottom: 180px;
+  }
+  &__collab-title {
+    margin-bottom: 40px;
+  }
+  &__collab-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__collab-box {
+    max-width: 584px;
+    width: 100%;
+    
+    .cottonText {
+      margin-bottom: 40px;
+      margin-left: auto;
+      max-width: 380px;
+    }
+  }
+  &__collab-bigText {
+    margin-bottom: 100px;
+  }
+  &__collab-info {
+    max-width: 481px;
+    width: 100%;
+    margin-left: 32px;
+  }
+  &__collab-info__box {
+    display: flex;
+  }
+  &__collab-info__text {
+    &:first-child {
+      max-width: 173px;
+      width: 100%;
+    }
+    &:last-child {
+      max-width: 276px;
+      width: 100%;
+      margin-left: 32px;
+    }
+  }
+  
+  &__benefits {
+    margin-bottom: 180px;
+  }
+  &__benefits-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__benefits-box {
+    max-width: 584px;
+  }
+  &__benefits-image {
+    max-width: 481px;
+    margin-left: 32px;
+  }
+  &__benefits-title {
+    margin-bottom: 53px;
+  }
+  &__benefits-text {
+    position: relative;
+    width: 276px;
+    height: 80px;
+    &::before {
+      content: "";
+      position: absolute;
+      border: 1px solid  #544d46;
+      border-radius: 50%;
+      right: 0;
+      left: -15%;
+      top: -25%;
+      bottom: 0;
+      transform: rotate(11deg);
+    }
+  }
 }
+
 
 @import "media";
