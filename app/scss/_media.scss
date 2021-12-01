@@ -35,7 +35,13 @@
   }
 
   .cotton__bad-image {
-    display: none;
+    // display: none;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .cotton__bad-inner {
+    display: block;
   }
   .cotton__bad-box {
     margin: 0;
@@ -52,7 +58,13 @@
     display: block;
   }
   .cotton__usage-image {
-    display: none;
+    // display: none;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .cotton__usage-inner {
+    display: block;
   }
   .cotton__usage-box {
     max-width: 100%;
@@ -80,14 +92,52 @@
     max-width: 100%;
     width: 100%;
   }
+  
+  .cotton__benefits-image {
+    // display: none;
+    display: flex;
+    justify-content: center;
+    order: -1;
+    margin: 0;
+    margin-bottom: 32px;
+    
+  }
+  .cotton__benefits-inner {
+    flex-direction: column;
+  }
+  .cotton__benefits-box {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .cotton__clothes-text:first-child {
+    margin-right: 32px;
+  }
+  
+  .cotton__gallery-info {
+    display: block;
+  }
+  .cotton__gallery-title {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  .cotton__gallery-text {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
+  .cotton__top {
+    height: 350px;
+  }
   .cottonMainTitle {
     font-size: 32px;
+    line-height: 40px;
   }
   .cottonTitle {
     font-size: 28px;
+    line-height: 36px;
   }
   .cottonBigText {
     font-size: 20px;
@@ -96,20 +146,44 @@
 
   .cotton__top-text {
     font-size: 40px;
+    line-height: 50px;
   }
 
   .cotton__video-title span {
     font-size: 42px;
     margin-bottom: 20px;
     line-height: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
   .cotton__video iframe {
     height: 300px;
   }
+  
+  .cotton__clothes-info {
+    display: block;
+    .cottonText {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 32px;
+    }
+  }
+  
+  .cotton__top,
+  .cotton__video,
+  .cotton__bad,
+  .cotton__usage,
+  .cotton__collab,
+  .cotton__benefits,
+  .cotton__clothes,
+  .cotton__gallery {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 500px) {
+  .cotton__top {
+    height: 300px;
+  }
   .cotton__top-text {
     font-size: 32px;
   }

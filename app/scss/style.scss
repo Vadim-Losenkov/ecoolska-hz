@@ -7,7 +7,8 @@
 .cotton {
   &__top {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center right;
+    background-size: cover;
     width: 100%;
     padding: 20px;
     height: 577px;
@@ -274,6 +275,33 @@
     &:last-child {
       max-width: 379px;
     }
+  }
+  
+  
+  &__gallery {
+    margin-bottom: 276px;
+  }
+  &__gallery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 54px;
+  }
+  &__gallery-text {
+    max-width: 380px;
+  }
+  &__gallery-title {
+    max-width: 687px;
+    margin-right: 32px;
+  }
+  &__gallery-inner {
+    img {
+      margin-bottom: 28px;
+    }
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 31px;
   }
 }
 
